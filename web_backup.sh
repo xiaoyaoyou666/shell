@@ -27,7 +27,7 @@ fi
 
 
 #远程备份 需要配置ssh的无密码传输
-scp /mnt/web_backup/${DATE}.tar.gz root@39.105.185.143:/mnt/
+scp /mnt/web_backup/${DATE}.tar.gz 用户名@IP地址:/mnt/【目录】
 
 
 #只保留指定时间内的文件
